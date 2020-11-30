@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import MyRating from '../components/Rating';
 import { GetRandomComic } from '../utils/httpRequests';
-//import './Comics.css';
+import '../styles/Comics.css';
 
 function Comics() {
   const [comic, setComic] = useState({})

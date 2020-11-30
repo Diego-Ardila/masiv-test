@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+.Comics {
+  display: grid;
+  border: 1px #580a00 solid;
+  gap: 10px;
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+  background-color: rgba(141, 137, 141, 0.363);
+  grid-template-areas: "title" "comic-title" "comic-img" "rating" "button";
+  max-width: 700px;
+  margin: 0;
+  padding: 20px;
+}
+.Comics .title {
+  grid-area: title;
+  color: #580a00;
+  font-weight: bolder;
+}
+.Comics .comic-img {
+  display: block;
+  margin: auto;
+  grid-area: comic-img;
+  max-width: 100%;
+  max-height: 450px;
+  min-width: 0;
+}
+.Comics .comic-title {
+  grid-area: comic-title;
+  font-weight: bolder;
+}
+.Comics .button {
+  grid-area: button;
+  border-style: none;
+  border-radius: 8px;
+  height: 50px;
+  width: 150px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: larger;
+  color: white;
+  background-color: #580a00;
+}
+.Comics .button:hover {
+  background-color: #e44631;
+  cursor: pointer;
+}
+.Comics .rating {
+  grid-area: rating;
+}
+
+@media screen and (max-width: 400px) {
+  .Comics {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=Comics.css.map */

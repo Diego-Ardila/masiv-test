@@ -1,7 +1,7 @@
 import Rating from 'react-rating';
 import '@fortawesome/fontawesome-free/js/all';
 import '@fortawesome/fontawesome-free/css/all.css';
-//import '../styles/Rating.css'
+import '../styles/Rating.css'
 
 const rates = {
     1: "Bad",
