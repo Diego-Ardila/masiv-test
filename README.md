@@ -22,7 +22,7 @@ luego en tu consola de comandos, ubicado en la ruta del proyecto, debes pulsar e
 
 Entonces se abrira en tu navegador en el puerto 3000. Y podras empezar la interaccion con la aplicacion.
 
-#Interaccion
+## Interaccion
 
 Tan pronto como se monta el componente, se hace un llamado a una Api de Comics y se trae la informacion de un comic aleatoriamente. 
 se renderiza el titulo del comic, su respectiva imagen y un pequeño componente que permite calificar cada comic; este renderiza 
